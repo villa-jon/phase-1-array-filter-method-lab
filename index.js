@@ -1,6 +1,6 @@
 //Code your solution here
-function findMatching(array, b) {
-   return array.filter(x => x.toUpperCase() === b.toUpperCase());
+function findMatching(array, q) {
+   return array.filter(x => x.toUpperCase() === q.toUpperCase());
 } 
 
 function fuzzyMatch(array, s) {
